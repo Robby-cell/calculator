@@ -1,0 +1,48 @@
+:root {
+    size: 16px;
+}
+
+body, html {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+    background-color: rgba(12, 167, 120, 0.274)
+}
+
+.app {
+    height: 70rem;
+    width: 30rem;
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.calc-display {
+    display: flex;
+    justify-content: end;
+    padding: 0.2rem;
+    
+    background-color: rgba(221, 65, 65, 0.301);
+    margin-bottom: 0.2rem;
+
+    border-radius: 0.3rem;
+    height: 1.2rem;
+}
+
+.calc-btn-holder {
+    display: grid;
+
+    grid-template-columns: auto auto auto;
+}
+
+.calc {
+    padding: 0.3rem;
+
+    background-color: rgba(61, 58, 53, 0.384);
+    border-radius: 0.2rem;
+    border: 0.2rem solid rgb(40, 202, 35);
+}
