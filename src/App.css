@@ -45,4 +45,6 @@ body {
     background-color: rgba(61, 58, 53, 0.384);
     border-radius: 0.2rem;
     border: 0.2rem solid rgb(40, 202, 35);
+    height: 10rem;
+    width: 30rem;
 }
